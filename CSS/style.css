@@ -129,6 +129,7 @@
 footer{
    
     /* padding: 1rem; */
+    filter: drop-shadow(-10px 0  5px #888);
 }
 
 footer .footer_main{
