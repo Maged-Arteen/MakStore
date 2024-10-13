@@ -78,19 +78,32 @@
    transition: 0.8s all;
 }
 
+.card{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
 .card .card-body{ 
     display: none;
     position: absolute;
+    margin: 0 auto;
+    width: 80%;
 
+    /* background-color: rebeccapurple; */
 }
 
 .card:hover .card-body{ 
     display: block;
     bottom: 10px;
+    
+    /* left: 50%; */
+    /* right: 50%; */
+    /* top: 50%; */
+    /* transform: translate(50%,50%); */
 
-    right: 50%;
-    left: 50%;
-    transform: translate(50%,50%);
+    
 }
 .card:hover .card-body h5{ 
     color: gold;
